@@ -1,0 +1,209 @@
+2015-09-24 01:15:32 [127.0.0.1][-][s9bkb2vogejcr29ju5si7ko194][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.session' doesn't exist' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#4 [internal function]: yii\web\DbSession->readSession('<span class="st...')
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(558): yii\web\Session->open()
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(607): yii\web\Session->get('<span class="st...')
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(356): yii\web\User->getIdentity()
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(661): yii\web\User->getId()
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\views\layouts\main.php(40): yii\web\User->can('<span class="st...')
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\romul\\...')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<span class="st...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\controllers\SiteController.php(89): yii\base\Controller->render('<span class="st...')
+#17 [internal function]: frontend\controllers\SiteController->actionIndex()
+#18 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#19 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#20 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#21 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#22 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.session' doesn't exist
+The SQL being executed was: SELECT `data` FROM `session` WHERE `expire`>1443050132 AND `id`='s9bkb2vogejcr29ju5si7ko194'' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `data` F...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#4 [internal function]: yii\web\DbSession->readSession('<span class="st...')
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(558): yii\web\Session->open()
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(607): yii\web\Session->get('<span class="st...')
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(356): yii\web\User->getIdentity()
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(661): yii\web\User->getId()
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\views\layouts\main.php(40): yii\web\User->can('<span class="st...')
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\romul\\...')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<span class="st...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\controllers\SiteController.php(89): yii\base\Controller->render('<span class="st...')
+#17 [internal function]: frontend\controllers\SiteController->actionIndex()
+#18 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#19 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#20 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#21 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#22 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'newtwitter.session' doesn't exist
+)
+
+2015-09-24 01:15:32 [127.0.0.1][-][s9bkb2vogejcr29ju5si7ko194][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => '252d3ce5baacdc1437fe13a5dd84b08aa169ae5324e403d72595250494a31c45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wQ4l14Z-BOzuT7Bt-xmEegQg38ht_lcO\";}'
+    'PHPSESSID' => 's9bkb2vogejcr29ju5si7ko194'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64570'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PHP_SELF' => '/advanced/index.php'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=252d3ce5baacdc1437fe13a5dd84b08aa169ae5324e403d72595250494a31c45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wQ4l14Z-BOzuT7Bt-xmEegQg38ht_lcO%22%3B%7D; PHPSESSID=s9bkb2vogejcr29ju5si7ko194'
+    'REQUEST_TIME_FLOAT' => 1443050132.0304
+    'REQUEST_TIME' => 1443050132
+]
+2015-09-24 01:15:32 [127.0.0.1][-][s9bkb2vogejcr29ju5si7ko194][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.session' doesn't exist
+The SQL being executed was: SELECT `data` FROM `session` WHERE `expire`>1443050132 AND `id`='s9bkb2vogejcr29ju5si7ko194'' 
+
+in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `data` F...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#4 [internal function]: yii\web\DbSession->readSession('s9bkb2vogejcr29...')
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(558): yii\web\Session->open()
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\panels\RequestPanel.php(124): yii\web\Session->get('__flash', Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\panels\RequestPanel.php(90): yii\debug\panels\RequestPanel->getFlashes()
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\LogTarget.php(55): yii\debug\panels\RequestPanel->save()
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#13 [internal function]: yii\log\Logger->flush(true)
+#14 {main}
+2015-09-24 01:15:32 [127.0.0.1][-][s9bkb2vogejcr29ju5si7ko194][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => '252d3ce5baacdc1437fe13a5dd84b08aa169ae5324e403d72595250494a31c45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wQ4l14Z-BOzuT7Bt-xmEegQg38ht_lcO\";}'
+    'PHPSESSID' => 's9bkb2vogejcr29ju5si7ko194'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64570'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PHP_SELF' => '/advanced/index.php'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=252d3ce5baacdc1437fe13a5dd84b08aa169ae5324e403d72595250494a31c45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wQ4l14Z-BOzuT7Bt-xmEegQg38ht_lcO%22%3B%7D; PHPSESSID=s9bkb2vogejcr29ju5si7ko194'
+    'REQUEST_TIME_FLOAT' => 1443050132.0304
+    'REQUEST_TIME' => 1443050132
+]
+2015-09-24 01:17:18 [127.0.0.1][-][s9bkb2vogejcr29ju5si7ko194][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php:753
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(753): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\Users\\romul\\...', 753, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\common\rbac\helpers\RbacHelper.php(34): yii\rbac\DbManager->assign(NULL, 1)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\models\SignupForm.php(113): common\rbac\helpers\RbacHelper::assignRole(1)
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\controllers\SiteController.php(286): frontend\models\SignupForm->signup()
+#4 [internal function]: frontend\controllers\SiteController->actionSignup()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/signup', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-09-24 01:17:17 [127.0.0.1][-][s9bkb2vogejcr29ju5si7ko194][info][application] $_POST = [
+    '_csrf' => 'VWNDeHFyd0gtJRcXEEcdDhsQNjUwRRh7Oho0PkAQTnAPKQARSQICfA=='
+    'SignupForm' => [
+        'username' => 'talitinhaeu'
+        'email' => 'talitinhaeu@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    'PHPSESSID' => 's9bkb2vogejcr29ju5si7ko194'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64703'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/site/signup'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/site/signup'
+    'PHP_SELF' => '/advanced/index.php/site/signup'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:9000'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:9000/advanced/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; PHPSESSID=s9bkb2vogejcr29ju5si7ko194; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443050237.481
+    'REQUEST_TIME' => 1443050237
+]
