@@ -2250,3 +2250,303 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1443055774.5388
     'REQUEST_TIME' => 1443055774
 ]
+2015-09-24 14:41:38 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#6 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('<span class="st...')
+#7 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#8 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(229): yii\db\Query->one(Object(yii\db\Connection))
+#11 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(186): yii\rbac\DbManager->getItem('<span class="st...')
+#12 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(126): yii\rbac\DbManager->checkAccessRecursive('<span class="ke...', '<span class="st...', '[]', '[]')
+#13 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(661): yii\rbac\DbManager->checkAccess('<span class="ke...', '<span class="st...', '[]')
+#14 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\frontend\views\layouts\main.php(40): yii\web\User->can('<span class="st...')
+#15 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\romulo...')
+#16 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#17 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#18 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<span class="st...')
+#19 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\frontend\controllers\SiteController.php(89): yii\base\Controller->render('<span class="st...')
+#20 [internal function]: frontend\controllers\SiteController->actionIndex()
+#21 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#22 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#23 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#24 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#25 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#27 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#4 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('<span class="st...')
+#5 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#6 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(229): yii\db\Query->one(Object(yii\db\Connection))
+#9 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(186): yii\rbac\DbManager->getItem('<span class="st...')
+#10 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\rbac\DbManager.php(126): yii\rbac\DbManager->checkAccessRecursive('<span class="ke...', '<span class="st...', '[]', '[]')
+#11 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\User.php(661): yii\rbac\DbManager->checkAccess('<span class="ke...', '<span class="st...', '[]')
+#12 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\frontend\views\layouts\main.php(40): yii\web\User->can('<span class="st...')
+#13 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\romulo...')
+#14 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#15 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#16 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<span class="st...')
+#17 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\frontend\controllers\SiteController.php(89): yii\base\Controller->render('<span class="st...')
+#18 [internal function]: frontend\controllers\SiteController->actionIndex()
+#19 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#20 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#21 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#22 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#23 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#25 {main}
+Additional Information:
+
+2015-09-24 14:41:37 [::1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '5640'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/advanced'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter\\advanced\\index.php'
+    'PHP_SELF' => '/advanced/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'REQUEST_TIME_FLOAT' => 1443098497.1955
+    'REQUEST_TIME' => 1443098497
+]
+2015-09-24 14:41:39 [::1][-][k8me4rvr1sv43jf5paruqgh5v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' 
+
+in C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php:534
+
+Stack trace:
+#0 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('k8me4rvr1sv43jf...')
+#4 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('k8me4rvr1sv43jf...')
+#5 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#6 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#7 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#8 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#9 [internal function]: yii\web\DbSession->readSession('k8me4rvr1sv43jf...')
+#10 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#11 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Session.php(558): yii\web\Session->open()
+#12 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\panels\RequestPanel.php(124): yii\web\Session->get('__flash', Array)
+#13 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\panels\RequestPanel.php(90): yii\debug\panels\RequestPanel->getFlashes()
+#14 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\LogTarget.php(55): yii\debug\panels\RequestPanel->save()
+#15 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#16 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#17 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#18 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#19 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#20 {main}
+2015-09-24 14:41:37 [::1][-][k8me4rvr1sv43jf5paruqgh5v0][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '5640'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/advanced'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter\\advanced\\index.php'
+    'PHP_SELF' => '/advanced/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'REQUEST_TIME_FLOAT' => 1443098497.1955
+    'REQUEST_TIME' => 1443098497
+]
+2015-09-24 14:42:30 [::1][-][um35gu330r03o53gehshsidhq6][error][yii\base\Exception] exception 'yii\base\Exception' with message 'Curl error requesting "https://api.twitter.com/oauth/request_token": #35 - error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol' in C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:202
+Stack trace:
+#0 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 14:42:28 [::1][-][um35gu330r03o53gehshsidhq6][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    '_csrf' => '818f22c043e12ecc32e4c6b443e6c88ce15c7bb0fc555e411e27e9d930cc381da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MpkKO2dgd00reQRERxyLd9Owx0laz6oR\";}'
+    'PHPSESSID' => 'um35gu330r03o53gehshsidhq6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '5691'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_csrf=818f22c043e12ecc32e4c6b443e6c88ce15c7bb0fc555e411e27e9d930cc381da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MpkKO2dgd00reQRERxyLd9Owx0laz6oR%22%3B%7D; PHPSESSID=um35gu330r03o53gehshsidhq6'
+    'REQUEST_TIME_FLOAT' => 1443098548.9206
+    'REQUEST_TIME' => 1443098548
+]
+2015-09-24 14:44:15 [::1][-][um35gu330r03o53gehshsidhq6][error][yii\base\Exception] exception 'yii\base\Exception' with message 'error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol' in C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OpenId.php:281
+Stack trace:
+#0 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OpenId.php(462): yii\authclient\OpenId->sendRequest('https://www.goo...', 'GET')
+#1 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OpenId.php(665): yii\authclient\OpenId->discover('https://www.goo...')
+#2 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(294): yii\authclient\OpenId->buildAuthUrl()
+#3 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(191): yii\authclient\AuthAction->authOpenId(Object(yii\authclient\clients\GoogleOpenId))
+#4 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\GoogleOpenId))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 14:44:15 [::1][-][um35gu330r03o53gehshsidhq6][info][application] $_GET = [
+    'authclient' => 'google'
+]
+
+$_COOKIE = [
+    '_csrf' => '818f22c043e12ecc32e4c6b443e6c88ce15c7bb0fc555e411e27e9d930cc381da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MpkKO2dgd00reQRERxyLd9Owx0laz6oR\";}'
+    'PHPSESSID' => 'um35gu330r03o53gehshsidhq6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '5713'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=google'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=google'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_csrf=818f22c043e12ecc32e4c6b443e6c88ce15c7bb0fc555e411e27e9d930cc381da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MpkKO2dgd00reQRERxyLd9Owx0laz6oR%22%3B%7D; PHPSESSID=um35gu330r03o53gehshsidhq6'
+    'REQUEST_TIME_FLOAT' => 1443098655.4209
+    'REQUEST_TIME' => 1443098655
+]
+2015-09-24 14:44:17 [::1][-][um35gu330r03o53gehshsidhq6][error][yii\base\Exception] exception 'yii\base\Exception' with message 'Curl error requesting "https://api.twitter.com/oauth/request_token": #35 - error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol' in C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:202
+Stack trace:
+#0 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\Desktop\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 14:44:17 [::1][-][um35gu330r03o53gehshsidhq6][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    '_csrf' => '818f22c043e12ecc32e4c6b443e6c88ce15c7bb0fc555e411e27e9d930cc381da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MpkKO2dgd00reQRERxyLd9Owx0laz6oR\";}'
+    'PHPSESSID' => 'um35gu330r03o53gehshsidhq6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '5720'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\Desktop\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_csrf=818f22c043e12ecc32e4c6b443e6c88ce15c7bb0fc555e411e27e9d930cc381da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MpkKO2dgd00reQRERxyLd9Owx0laz6oR%22%3B%7D; PHPSESSID=um35gu330r03o53gehshsidhq6'
+    'REQUEST_TIME_FLOAT' => 1443098657.5979
+    'REQUEST_TIME' => 1443098657
+]
