@@ -18,6 +18,10 @@ $this->params['breadcrumbs'][] = $this->title;
         <p><?= Yii::t('app', 'Please fill out the following fields to login:') ?></p>
 
         <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+        
+        <?= Connect::widget([
+                    'baseAuthUrl' => ['/user/security/auth']
+                ]) ?>
 
         <?php //-- use email or username field depending on model scenario --// ?>
         <?php if ($model->scenario === 'lwe'): ?>

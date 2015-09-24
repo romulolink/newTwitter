@@ -14,6 +14,12 @@ return [
     		'authClientCollection' => [
     				'class' => 'yii\authclient\Collection',
     				'clients' => [
+    						'facebook' => [
+    								'class' => 'yii\authclient\clients\Facebook',
+    								'authUrl' => 'https://www.facebook.com/dialog/oauth?display=popup',
+    								'clientId' => '',
+    								'clientSecret' => '',
+    						],
     						'google' => [
     								'class' => 'yii\authclient\clients\GoogleOpenId'
     						],

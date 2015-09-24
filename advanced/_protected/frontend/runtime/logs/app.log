@@ -2550,3 +2550,515 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1443098657.5979
     'REQUEST_TIME' => 1443098657
 ]
+2015-09-24 15:15:27 [127.0.0.1][-][gpnmfp5t1sfmbng6p2mc9c9h73][error][yii\base\Exception] exception 'yii\base\Exception' with message 'Curl error requesting "https://api.twitter.com/oauth/request_token": #35 - error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:202
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 15:15:25 [127.0.0.1][-][gpnmfp5t1sfmbng6p2mc9c9h73][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gpnmfp5t1sfmbng6p2mc9c9h73'
+    '_csrf' => '85bd3fff811eff3be519d09d85b1fcacfa13de4bcbbf9c18fd21ec99c310ff76a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y0nZb6DxVMp0Vung_p8eDmunFP8HfAcy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '6555'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '9001'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:9001'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9001/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=gpnmfp5t1sfmbng6p2mc9c9h73; _csrf=85bd3fff811eff3be519d09d85b1fcacfa13de4bcbbf9c18fd21ec99c310ff76a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y0nZb6DxVMp0Vung_p8eDmunFP8HfAcy%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443100525.6723
+    'REQUEST_TIME' => 1443100525
+]
+2015-09-24 15:17:50 [127.0.0.1][-][gpnmfp5t1sfmbng6p2mc9c9h73][error][yii\base\Exception] exception 'yii\base\Exception' with message 'Curl error requesting "https://api.twitter.com/oauth/request_token": #35 - error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:202
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 15:17:49 [127.0.0.1][-][gpnmfp5t1sfmbng6p2mc9c9h73][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gpnmfp5t1sfmbng6p2mc9c9h73'
+    '_csrf' => '85bd3fff811eff3be519d09d85b1fcacfa13de4bcbbf9c18fd21ec99c310ff76a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y0nZb6DxVMp0Vung_p8eDmunFP8HfAcy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '6656'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '9001'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:9001'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9001/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=gpnmfp5t1sfmbng6p2mc9c9h73; _csrf=85bd3fff811eff3be519d09d85b1fcacfa13de4bcbbf9c18fd21ec99c310ff76a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y0nZb6DxVMp0Vung_p8eDmunFP8HfAcy%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443100669.2627
+    'REQUEST_TIME' => 1443100669
+]
+2015-09-24 15:20:50 [127.0.0.1][-][gpnmfp5t1sfmbng6p2mc9c9h73][error][yii\base\Exception] exception 'yii\base\Exception' with message 'Curl error requesting "https://api.twitter.com/oauth/request_token": #35 - error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:202
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 15:20:50 [127.0.0.1][-][gpnmfp5t1sfmbng6p2mc9c9h73][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gpnmfp5t1sfmbng6p2mc9c9h73'
+    '_csrf' => '85bd3fff811eff3be519d09d85b1fcacfa13de4bcbbf9c18fd21ec99c310ff76a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y0nZb6DxVMp0Vung_p8eDmunFP8HfAcy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '6704'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '9001'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:9001'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9001/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=gpnmfp5t1sfmbng6p2mc9c9h73; _csrf=85bd3fff811eff3be519d09d85b1fcacfa13de4bcbbf9c18fd21ec99c310ff76a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y0nZb6DxVMp0Vung_p8eDmunFP8HfAcy%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443100850.4457
+    'REQUEST_TIME' => 1443100850
+]
+2015-09-24 15:50:14 [127.0.0.1][-][fctp9b31cu1au0r07fq5avreu4][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: {"errors":[{"code":32,"message":"Could not authenticate you."}]}' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 15:50:08 [127.0.0.1][-][fctp9b31cu1au0r07fq5avreu4][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'fctp9b31cu1au0r07fq5avreu4'
+    '_csrf' => 'bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '7846'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=fctp9b31cu1au0r07fq5avreu4; _csrf=bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443102608.6317
+    'REQUEST_TIME' => 1443102608
+]
+2015-09-24 15:51:03 [127.0.0.1][-][fctp9b31cu1au0r07fq5avreu4][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: {"errors":[{"code":32,"message":"Could not authenticate you."}]}' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 15:51:02 [127.0.0.1][-][fctp9b31cu1au0r07fq5avreu4][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'fctp9b31cu1au0r07fq5avreu4'
+    '_csrf' => 'bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '7881'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=fctp9b31cu1au0r07fq5avreu4; _csrf=bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443102662.2817
+    'REQUEST_TIME' => 1443102662
+]
+2015-09-24 15:52:36 [127.0.0.1][-][fctp9b31cu1au0r07fq5avreu4][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: {"errors":[{"code":32,"message":"Could not authenticate you."}]}' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 15:52:35 [127.0.0.1][-][fctp9b31cu1au0r07fq5avreu4][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'fctp9b31cu1au0r07fq5avreu4'
+    '_csrf' => 'bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '7951'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=fctp9b31cu1au0r07fq5avreu4; _csrf=bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443102755.5717
+    'REQUEST_TIME' => 1443102755
+]
+2015-09-24 16:00:39 [127.0.0.1][-][-][error][application] An error occurred while creating user account
+    in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\dektrium\yii2-user\models\User.php:224
+    in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\RegistrationController.php:87
+2015-09-24 16:00:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'account_id' => '3'
+]
+
+$_POST = [
+    '_csrf' => 'U3IzY2VsQjclPkUVPF4xRmAEB1JTHDt0OitCVC42G1I6G2sMIAEABw=='
+    'User' => [
+        'username' => 'romulolink'
+        'email' => 'romulolink@gmail.com'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0\";}'
+    'PHPSESSID' => '461eru44e1m7g0r1il0ekfi384'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Facebook_c6e819303b0b00a75ef8d268d2f58b3a1e2bce98_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'access_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443103227
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'access_token' => 'CAAQqdM0erwsBALH0HxitURIEgXPjrtdFraAWxG7oHDSbFk6GPjGFe33YZCCWzz8drhIHn6eHMeQPNeWVzLoQp6gWdEggv7Hujz7zUSb6RYDjzSTrkGhWfBAfR9mNwXdATQZAgyhYVLui6ExSZASJ8BtYeFzKDVxaUf5Y0i53fZA1fdYDjABL'
+            'expires' => '5184000'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '8208'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/registration/connect?account_id=3'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/registration/connect'
+    'PHP_SELF' => '/advanced/index.php/user/registration/connect'
+    'QUERY_STRING' => 'account_id=3'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '135'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.caaporagames.com.br'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/registration/connect?account_id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_csrf=bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0%22%3B%7D; PHPSESSID=461eru44e1m7g0r1il0ekfi384'
+    'REQUEST_TIME_FLOAT' => 1443103238.9087
+    'REQUEST_TIME' => 1443103238
+]
+2015-09-24 16:02:22 [127.0.0.1][-][dc3k0cfnnuh5slj3tdet9bsid1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Connect' not found' in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\frontend\views\site\login.php:23
+Stack trace:
+#0 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\frontend\controllers\SiteController.php(173): yii\base\Controller->render()
+#4 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionLogin()
+#5 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array()
+#6 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-09-24 16:02:22 [127.0.0.1][-][dc3k0cfnnuh5slj3tdet9bsid1][info][application] $_COOKIE = [
+    '_csrf' => 'bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0\";}'
+    'PHPSESSID' => 'dc3k0cfnnuh5slj3tdet9bsid1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '8310'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/advanced/index.php/site/login'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_csrf=bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0%22%3B%7D; PHPSESSID=dc3k0cfnnuh5slj3tdet9bsid1'
+    'REQUEST_TIME_FLOAT' => 1443103342.7017
+    'REQUEST_TIME' => 1443103342
+]
+2015-09-24 16:11:45 [127.0.0.1][-][-][error][application] An error occurred while creating user account
+    in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\dektrium\yii2-user\models\User.php:224
+    in C:\Users\romulorlo.IAE\workspace\newTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\RegistrationController.php:87
+2015-09-24 16:11:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'account_id' => '4'
+]
+
+$_POST = [
+    '_csrf' => 'aEdTd2lYaVIeCyUBMGoaI1sxZ0ZfKBARAR4iQCICMDcBLgsYLDUrYg=='
+    'User' => [
+        'username' => 'romulolinkr'
+        'email' => 'romulolink@gmail.com'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0\";}'
+    'PHPSESSID' => 'ma8iehvqmajv2lhc811fmqjoa3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Facebook_c6e819303b0b00a75ef8d268d2f58b3a1e2bce98_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'access_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443103895
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'access_token' => 'CAAQqdM0erwsBAGaq1tAzSZAT4ERgyiEFlMs2vS9wyVPAjGHT4qWZA34XaSazGVsQfWr3jcSmuMAMd2ZBhEfI96zaddc0lFcSFZBvVilCslTCid1Lr0ZAmCZAECQWuZCWCyZB9LEUFaolOtDEJxZBZAZCTbNGIlN42E0dVTKUkhLspAwVISosQgm8NVM'
+            'expires' => '5183998'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '8698'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/registration/connect?account_id=4'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romulorlo.IAE\\workspace\\newTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/registration/connect'
+    'PHP_SELF' => '/advanced/index.php/user/registration/connect'
+    'QUERY_STRING' => 'account_id=4'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '136'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.caaporagames.com.br'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/registration/connect?account_id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_csrf=bbb384cfc17d2112dff8bbd468ff7f1a8c4208b50aec3f0f715d68f72b7a67ffa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vLvvY2sq3v416pyCiYq7KZYeiiXoEmB0%22%3B%7D; PHPSESSID=ma8iehvqmajv2lhc811fmqjoa3'
+    'REQUEST_TIME_FLOAT' => 1443103904.8927
+    'REQUEST_TIME' => 1443103904
+]
