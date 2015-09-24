@@ -19,8 +19,8 @@ return [
     						],
     						'twitter' => [
     								'class' => 'yii\authclient\clients\Twitter',
-    								'consumerKey' => 'GKghpcl4Fk3IcITWOQ6vi631m',
-    								'consumerSecret' => 'mGIRNtiCb3OKlF6VUXe8rIvEPuJZqWdhkrjE3RLyzFJGBdziWb',
+    								'consumerKey' => '',
+    								'consumerSecret' => '',
     						],
     				],
     		],
