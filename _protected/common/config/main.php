@@ -4,6 +4,19 @@ return [
     //'language' => 'sr',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
+    		'authClientCollection' => [
+    				'class' => 'yii\authclient\Collection',
+    				'clients' => [
+    						'google' => [
+    								'class' => 'yii\authclient\clients\GoogleOpenId'
+    						],
+    						'twitter' => [
+    								'class' => 'yii\authclient\clients\Twitter',
+    								'consumerKey' => 'GKghpcl4Fk3IcITWOQ6vi631m',
+    								'consumerSecret' => 'mGIRNtiCb3OKlF6VUXe8rIvEPuJZqWdhkrjE3RLyzFJGBdziWb',
+    						],
+    				],
+    		],
         'assetManager' => [
             'bundles' => [
                 // we will use bootstrap css from our theme

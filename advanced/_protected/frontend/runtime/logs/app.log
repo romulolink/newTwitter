@@ -207,3 +207,2046 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1443050237.481
     'REQUEST_TIME' => 1443050237
 ]
+2015-09-24 02:02:53 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @dektrium/user/views' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Theme.php(144): yii\BaseYii::getAlias('@dektrium/user/...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(221): yii\base\Theme->applyTo('C:\\Users\\romul\\...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\romul\\...', Array, Object(frontend\controllers\SiteController))
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\frontend\controllers\SiteController.php(89): yii\base\Controller->render('index')
+#5 [internal function]: frontend\controllers\SiteController->actionIndex()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:02:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49453'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PHP_SELF' => '/advanced/index.php'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'REQUEST_TIME_FLOAT' => 1443052973.9063
+    'REQUEST_TIME' => 1443052973
+]
+2015-09-24 02:09:01 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:09:01 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'i1u4h9krnvuef6moaf59rubd77'
+    '_identity' => '054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XD4WtCkDzmYZCR34WT16IsCiaQysolhz\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49673'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user'
+    'PHP_SELF' => '/advanced/index.php/user'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=i1u4h9krnvuef6moaf59rubd77; _identity=054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XD4WtCkDzmYZCR34WT16IsCiaQysolhz%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443053341.1653
+    'REQUEST_TIME' => 1443053341
+]
+2015-09-24 02:09:05 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/registrati...', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-09-24 02:09:05 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'i1u4h9krnvuef6moaf59rubd77'
+    '_identity' => '054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XD4WtCkDzmYZCR34WT16IsCiaQysolhz\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49694'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=i1u4h9krnvuef6moaf59rubd77; _identity=054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XD4WtCkDzmYZCR34WT16IsCiaQysolhz%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443053345.8142
+    'REQUEST_TIME' => 1443053345
+]
+2015-09-24 02:10:17 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:10:17 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'i1u4h9krnvuef6moaf59rubd77'
+    '_identity' => '054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XD4WtCkDzmYZCR34WT16IsCiaQysolhz\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49725'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user'
+    'PHP_SELF' => '/advanced/index.php/user'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=i1u4h9krnvuef6moaf59rubd77; _identity=054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XD4WtCkDzmYZCR34WT16IsCiaQysolhz%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443053417.0261
+    'REQUEST_TIME' => 1443053417
+]
+2015-09-24 02:10:22 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/registrati...', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-09-24 02:10:22 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'i1u4h9krnvuef6moaf59rubd77'
+    '_identity' => '054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XD4WtCkDzmYZCR34WT16IsCiaQysolhz\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49739'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=i1u4h9krnvuef6moaf59rubd77; _identity=054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XD4WtCkDzmYZCR34WT16IsCiaQysolhz%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443053422.2814
+    'REQUEST_TIME' => 1443053422
+]
+2015-09-24 02:10:28 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/registe".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/registe', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:10:28 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'i1u4h9krnvuef6moaf59rubd77'
+    '_identity' => '054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XD4WtCkDzmYZCR34WT16IsCiaQysolhz\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49758'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/registe'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/registe'
+    'PHP_SELF' => '/advanced/index.php/user/registe'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=i1u4h9krnvuef6moaf59rubd77; _identity=054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XD4WtCkDzmYZCR34WT16IsCiaQysolhz%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443053428.5305
+    'REQUEST_TIME' => 1443053428
+]
+2015-09-24 02:10:31 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/registrati...', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-09-24 02:10:31 [127.0.0.1][1][i1u4h9krnvuef6moaf59rubd77][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'i1u4h9krnvuef6moaf59rubd77'
+    '_identity' => '054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XD4WtCkDzmYZCR34WT16IsCiaQysolhz\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49778'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=i1u4h9krnvuef6moaf59rubd77; _identity=054cb6c741a3532bbb296acaa9fd58a2377c1273a7d6083d85feb5398cdd85f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XD4WtCkDzmYZCR34WT16IsCiaQysolhz%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443053431.6347
+    'REQUEST_TIME' => 1443053431
+]
+2015-09-24 02:12:38 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:12:36 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'bun1s08pa8qsm2ir3c1n9jit94'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50040'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=bun1s08pa8qsm2ir3c1n9jit94'
+    'REQUEST_TIME_FLOAT' => 1443053556.571
+    'REQUEST_TIME' => 1443053556
+]
+2015-09-24 02:13:07 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][error][yii\base\Exception] exception 'yii\base\Exception' with message 'No servers found!' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OpenId.php:497
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OpenId.php(665): yii\authclient\OpenId->discover('https://www.goo...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(294): yii\authclient\OpenId->buildAuthUrl()
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(191): yii\authclient\AuthAction->authOpenId(Object(yii\authclient\clients\GoogleOpenId))
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\GoogleOpenId))
+#4 [internal function]: yii\authclient\AuthAction->run()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-09-24 02:13:02 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][info][application] $_GET = [
+    'authclient' => 'google'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'bun1s08pa8qsm2ir3c1n9jit94'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50054'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=google'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=google'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=bun1s08pa8qsm2ir3c1n9jit94'
+    'REQUEST_TIME_FLOAT' => 1443053582.6748
+    'REQUEST_TIME' => 1443053582
+]
+2015-09-24 02:13:12 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:13:12 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'bun1s08pa8qsm2ir3c1n9jit94'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50063'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=bun1s08pa8qsm2ir3c1n9jit94'
+    'REQUEST_TIME_FLOAT' => 1443053592.1631
+    'REQUEST_TIME' => 1443053592
+]
+2015-09-24 02:18:33 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:18:32 [127.0.0.1][-][bun1s08pa8qsm2ir3c1n9jit94][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1216632181.1442111590'
+    '_csrf' => 'a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4\";}'
+    'PHPSESSID' => 'bun1s08pa8qsm2ir3c1n9jit94'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50168'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'localhost:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:9000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => '_ga=GA1.1.1216632181.1442111590; _csrf=a82386b0ccd4b68489afc8457d713ccae7a1e5cc56d778ef45d72211493882e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xFToa5jFNsuMA7o3oywF1b98ZJCi8pu4%22%3B%7D; PHPSESSID=bun1s08pa8qsm2ir3c1n9jit94'
+    'REQUEST_TIME_FLOAT' => 1443053912.1622
+    'REQUEST_TIME' => 1443053912
+]
+2015-09-24 02:23:04 [127.0.0.1][-][7be90cvgi9mhllhuoo79g4gjr2][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:23:03 [127.0.0.1][-][7be90cvgi9mhllhuoo79g4gjr2][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '7be90cvgi9mhllhuoo79g4gjr2'
+    '_csrf' => 'ecab6ced1483121e22d6bcf1abc96867c5503d7cdd616e7890c7b68c3e6e63e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"z8M4FLROAuvr6HiS0Xt7t5NqTBa14t_H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50357'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '0.0.0.0'
+    'SERVER_PORT' => '9000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => '127.0.0.1:9000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1:9000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=7be90cvgi9mhllhuoo79g4gjr2; _csrf=ecab6ced1483121e22d6bcf1abc96867c5503d7cdd616e7890c7b68c3e6e63e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22z8M4FLROAuvr6HiS0Xt7t5NqTBa14t_H%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443054183.5909
+    'REQUEST_TIME' => 1443054183
+]
+2015-09-24 02:23:46 [127.0.0.1][-][7be90cvgi9mhllhuoo79g4gjr2][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:23:44 [127.0.0.1][-][7be90cvgi9mhllhuoo79g4gjr2][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '7be90cvgi9mhllhuoo79g4gjr2'
+    '_csrf' => 'ecab6ced1483121e22d6bcf1abc96867c5503d7cdd616e7890c7b68c3e6e63e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"z8M4FLROAuvr6HiS0Xt7t5NqTBa14t_H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50398'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '4000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => '127.0.0.1:4000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1:4000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'PHPSESSID=7be90cvgi9mhllhuoo79g4gjr2; _csrf=ecab6ced1483121e22d6bcf1abc96867c5503d7cdd616e7890c7b68c3e6e63e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22z8M4FLROAuvr6HiS0Xt7t5NqTBa14t_H%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443054224.1509
+    'REQUEST_TIME' => 1443054224
+]
+2015-09-24 02:27:39 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:27:38 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50600'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '4000'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'www.caaporagames.com.br:4000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br:4000/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443054458.5318
+    'REQUEST_TIME' => 1443054458
+]
+2015-09-24 02:28:28 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:28:27 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50630'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443054507.0435
+    'REQUEST_TIME' => 1443054507
+]
+2015-09-24 02:31:27 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\authclient\InvalidResponseException] exception 'yii\authclient\InvalidResponseException' with message 'Request failed with code: 401, message: <?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <error>Desktop applications only support the oauth_callback value 'oob'</error>
+  <request>/oauth/request_token</request>
+</hash>
+' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\BaseOAuth.php:205
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(163): yii\authclient\BaseOAuth->sendRequest('POST', 'https://api.twi...', Array, Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\OAuth1.php(82): yii\authclient\OAuth1->sendSignedRequest('POST', 'https://api.twi...', Array)
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(319): yii\authclient\OAuth1->fetchRequestToken()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#5 [internal function]: yii\authclient\AuthAction->run()
+#6 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('auth', Array)
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/security/a...', Array)
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-09-24 02:31:27 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50717'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1443054687.3291
+    'REQUEST_TIME' => 1443054687
+]
+2015-09-24 02:33:37 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist
+The SQL being executed was: SELECT * FROM `social_account` WHERE (`provider`='twitter') AND (`client_id`=2402979766)' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'newtwitter.social_account' doesn't exist
+)
+
+2015-09-24 02:33:32 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+    'oauth_token' => 'Of57NAAAAAAAhu1AAAABT_zE4ZQ'
+    'oauth_verifier' => 'keUywqemqdNFWGlRfGSh2ug2LuVL6PJf'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443054813
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50804'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter&oauth_token=Of57NAAAAAAAhu1AAAABT_zE4ZQ&oauth_verifier=keUywqemqdNFWGlRfGSh2ug2LuVL6PJf'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter&oauth_token=Of57NAAAAAAAhu1AAAABT_zE4ZQ&oauth_verifier=keUywqemqdNFWGlRfGSh2ug2LuVL6PJf'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443054812.8017
+    'REQUEST_TIME' => 1443054812
+]
+2015-09-24 02:35:50 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist
+The SQL being executed was: SELECT * FROM `social_account` WHERE (`provider`='twitter') AND (`client_id`=2402979766)' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'newtwitter.social_account' doesn't exist
+)
+
+2015-09-24 02:35:48 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+    'oauth_token' => 'yoKVGgAAAAAAhu1AAAABT_zHG9A'
+    'oauth_verifier' => '1tSFUGpplLF3FSkUe1OKUbMKTXfSNJmU'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443054949
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50855'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter&oauth_token=yoKVGgAAAAAAhu1AAAABT_zHG9A&oauth_verifier=1tSFUGpplLF3FSkUe1OKUbMKTXfSNJmU'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter&oauth_token=yoKVGgAAAAAAhu1AAAABT_zHG9A&oauth_verifier=1tSFUGpplLF3FSkUe1OKUbMKTXfSNJmU'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443054948.4998
+    'REQUEST_TIME' => 1443054948
+]
+2015-09-24 02:37:01 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist
+The SQL being executed was: SELECT * FROM `social_account` WHERE (`provider`='twitter') AND (`client_id`=2402979766)' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'newtwitter.social_account' doesn't exist
+)
+
+2015-09-24 02:37:00 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+    'oauth_token' => '8KXTmgAAAAAAhu1AAAABT_zINPw'
+    'oauth_verifier' => 'WlfzLNB9hawhVeYdyv77Ekl15sSeas2f'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055021
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50876'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter&oauth_token=8KXTmgAAAAAAhu1AAAABT_zINPw&oauth_verifier=WlfzLNB9hawhVeYdyv77Ekl15sSeas2f'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter&oauth_token=8KXTmgAAAAAAhu1AAAABT_zINPw&oauth_verifier=WlfzLNB9hawhVeYdyv77Ekl15sSeas2f'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055020.1429
+    'REQUEST_TIME' => 1443055020
+]
+2015-09-24 02:37:54 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist
+The SQL being executed was: SELECT * FROM `social_account` WHERE (`provider`='twitter') AND (`client_id`=2402979766)' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'newtwitter.social_account' doesn't exist
+)
+
+2015-09-24 02:37:52 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+    'oauth_token' => 'XdyergAAAAAAhu1AAAABT_zJA9E'
+    'oauth_verifier' => 'mPZwMxgsuMpMPQojZZLsjzXmjyKBbG6w'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055074
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50889'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter&oauth_token=XdyergAAAAAAhu1AAAABT_zJA9E&oauth_verifier=mPZwMxgsuMpMPQojZZLsjzXmjyKBbG6w'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter&oauth_token=XdyergAAAAAAhu1AAAABT_zJA9E&oauth_verifier=mPZwMxgsuMpMPQojZZLsjzXmjyKBbG6w'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055072.9211
+    'REQUEST_TIME' => 1443055072
+]
+2015-09-24 02:42:22 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newtwitter.social_account' doesn't exist
+The SQL being executed was: SELECT * FROM `social_account` WHERE (`provider`='twitter') AND (`client_id`=2402979766)' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\ModelManager.php(193): yii\db\ActiveQuery->one()
+#5 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\dektrium\yii2-user\controllers\SecurityController.php(114): dektrium\user\ModelManager->findAccount('<span class="st...', '<span class="nu...')
+#6 [internal function]: dektrium\user\controllers\SecurityController->authenticate(Object(yii\authclient\clients\Twitter))
+#7 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(212): call_user_func('[<span class="t...', Object(yii\authclient\clients\Twitter))
+#8 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(327): yii\authclient\AuthAction->authSuccess(Object(yii\authclient\clients\Twitter))
+#9 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(195): yii\authclient\AuthAction->authOAuth1(Object(yii\authclient\clients\Twitter))
+#10 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2-authclient\AuthAction.php(177): yii\authclient\AuthAction->auth(Object(yii\authclient\clients\Twitter))
+#11 [internal function]: yii\authclient\AuthAction->run()
+#12 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array('[<span class="t...', '[]')
+#13 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams('[<span class="s...')
+#14 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'newtwitter.social_account' doesn't exist
+)
+
+2015-09-24 02:42:21 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_GET = [
+    'authclient' => 'twitter'
+    'oauth_token' => 'P8Z1wgAAAAAAhu1AAAABT_zNG88'
+    'oauth_verifier' => 'mS6Zym4mYoViLTHuNwRGlkql2QH2Wd10'
+]
+
+$_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50936'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/security/auth?authclient=twitter&oauth_token=P8Z1wgAAAAAAhu1AAAABT_zNG88&oauth_verifier=mS6Zym4mYoViLTHuNwRGlkql2QH2Wd10'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/security/auth'
+    'PHP_SELF' => '/advanced/index.php/user/security/auth'
+    'QUERY_STRING' => 'authclient=twitter&oauth_token=P8Z1wgAAAAAAhu1AAAABT_zNG88&oauth_verifier=mS6Zym4mYoViLTHuNwRGlkql2QH2Wd10'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055341.1737
+    'REQUEST_TIME' => 1443055341
+]
+2015-09-24 02:45:38 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:45:38 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51115'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055538.4194
+    'REQUEST_TIME' => 1443055538
+]
+2015-09-24 02:45:40 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:45:40 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51135'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055540.8813
+    'REQUEST_TIME' => 1443055540
+]
+2015-09-24 02:45:43 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:45:42 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51148'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055542.9657
+    'REQUEST_TIME' => 1443055542
+]
+2015-09-24 02:45:47 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:45:47 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51168'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055547.9307
+    'REQUEST_TIME' => 1443055547
+]
+2015-09-24 02:45:58 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:45:58 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51178'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/'
+    'PHP_SELF' => '/advanced/index.php/user/'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055558.2094
+    'REQUEST_TIME' => 1443055558
+]
+2015-09-24 02:48:52 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:48:52 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51301'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/'
+    'PHP_SELF' => '/advanced/index.php/user/'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055732.267
+    'REQUEST_TIME' => 1443055732
+]
+2015-09-24 02:48:54 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:48:54 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51313'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055734.664
+    'REQUEST_TIME' => 1443055734
+]
+2015-09-24 02:48:56 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:48:56 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51323'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.caaporagames.com.br/advanced/user/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055736.3706
+    'REQUEST_TIME' => 1443055736
+]
+2015-09-24 02:49:34 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/register".' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/register', Array)
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\romul\Desktop\workspace\NewTwitter\advanced\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-09-24 02:49:34 [127.0.0.1][-][h4qgmfj5e9ctjlulmdou8vrcs1][info][application] $_COOKIE = [
+    'rghash' => '8d57c7c4-951a-6421-3533-e976a356f32e'
+    'mp_bad68c33cc21a989508912b5e70db1c5_mixpanel' => '{\"distinct_id\": \"14fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c\",\"$initial_referrer\": \"http://www.caaporagames.com.br/wp-admin/update.php?action=install-plugin&plugin=simple-subscribe&_wpnonce=03a8a7bd47\",\"$initial_referring_domain\": \"www.caaporagames.com.br\"}'
+    'wp-settings-1' => 'libraryContent=browse&editor=tinymce&advImgDetails=show&hidetb=1'
+    'wp-settings-time-1' => '1442282124'
+    '_ga' => 'GA1.3.1600417763.1442114251'
+    '_csrf' => 'fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ztov3--xbEDvbiVO4qEmfMscplw8nV8e\";}'
+    'PHPSESSID' => 'h4qgmfj5e9ctjlulmdou8vrcs1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yii\\authclient\\clients\\Twitter_ef71f520786335688cd762d29aaa2ac98b6bd42f_token' => yii\authclient\OAuthToken#1
+    (
+        [tokenParamKey] => 'oauth_token'
+        [tokenSecretParamKey] => 'oauth_token_secret'
+        [createTimestamp] => 1443055342
+        [yii\authclient\OAuthToken:_expireDurationParamKey] => 'x_auth_expires'
+        [yii\authclient\OAuthToken:_params] => [
+            'oauth_token' => '2402979766-o6YAb1wiUy0omcFcj0IIKUgElGl07FP1z9WG78E'
+            'oauth_token_secret' => 'sXyhBvpyUghajb33qcVZVPi9ksAXyCIGyPiI2YGQoarTA'
+            'user_id' => '2402979766'
+            'screen_name' => 'romulolinkr'
+            'x_auth_expires' => '0'
+        ]
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51369'
+    'SERVER_SOFTWARE' => 'PHP 5.5.28 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/advanced/user/register'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/advanced/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\romul\\Desktop\\workspace\\NewTwitter\\advanced\\index.php'
+    'PATH_INFO' => '/user/register'
+    'PHP_SELF' => '/advanced/index.php/user/register'
+    'HTTP_HOST' => 'www.caaporagames.com.br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,id;q=0.2'
+    'HTTP_COOKIE' => 'rghash=8d57c7c4-951a-6421-3533-e976a356f32e; mp_bad68c33cc21a989508912b5e70db1c5_mixpanel=%7B%22distinct_id%22%3A%20%2214fc746aaff4ed-025d13d3f-5d422e19-1fa400-14fc746ab0056c%22%2C%22%24initial_referrer%22%3A%20%22http%3A%2F%2Fwww.caaporagames.com.br%2Fwp-admin%2Fupdate.php%3Faction%3Dinstall-plugin%26plugin%3Dsimple-subscribe%26_wpnonce%3D03a8a7bd47%22%2C%22%24initial_referring_domain%22%3A%20%22www.caaporagames.com.br%22%7D; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow%26hidetb%3D1; wp-settings-time-1=1442282124; _ga=GA1.3.1600417763.1442114251; _csrf=fd941fbe663a818e27c3587dc7ab3a1ab089a86368ca8a6ec312a8f50221e1c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ztov3--xbEDvbiVO4qEmfMscplw8nV8e%22%3B%7D; PHPSESSID=h4qgmfj5e9ctjlulmdou8vrcs1'
+    'REQUEST_TIME_FLOAT' => 1443055774.5388
+    'REQUEST_TIME' => 1443055774
+]

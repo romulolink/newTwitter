@@ -53,7 +53,7 @@ AppAsset::register($this);
             // display Signup and Login pages to guests of the site
             if (Yii::$app->user->isGuest) 
             {
-                $menuItems[] = ['label' => Yii::t('app', 'Signup'), 'url' => ['/site/signup']];
+                $menuItems[] = ['label' => Yii::t('app', 'Signup'), 'url' => ['/user/register']];
                 $menuItems[] = ['label' => Yii::t('app', 'Login'), 'url' => ['/site/login']];
             }
             // display Logout to all logged in users
